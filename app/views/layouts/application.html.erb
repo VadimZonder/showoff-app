@@ -83,6 +83,7 @@
                   //redirect to home page - window.location is used for cross browser safety
                   //also by refreshing it will update ruby varaible with the access token
                   window.location.href = "/widgets";
+                  logedin = true;
 
               },
               error: function(err) {

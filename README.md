@@ -32,6 +32,9 @@ $ heroku open
 ## Navigation
 Make sure to register first and then my need to login in.
 
+***Discovered issue with Heroku described here:
+https://devcenter.heroku.com/articles/cookies-and-herokuapp-com
+It prevents me from using cookies so cannot use the login/out etc. However, these functionalities can be use in development by using the attached rails zip files. No time to fix it but it would be fixed by using devise gem instead of the cookies.
 
 # Links to view the app
 # Heroku
