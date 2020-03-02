@@ -9,7 +9,10 @@ Application is built using Ruby on Rails 5.2.0 and Ruby version 2.4.9
 Some of the essential gems used: rest-client, bootsnap, puma, pg
 
 # Deploying Locally
-Clone the repo locally and run:
+Clone the repo locally from:
+https://github.com/VadimZonder/showoff-app
+
+and run:
 
 # install gems
 $ bundle install
@@ -19,10 +22,14 @@ $ rails s
 
 # run the rails console
 $ rails c
+#Development on localhost
+Here is the url for the development once rails server command is ran
+http://localhost:3000/
+
+
 
 ## Deploying to Heroku
 
-sh
 $ heroku create
 $ git push heroku master
 $ bundle exec rake assets:precompile
